@@ -1,7 +1,9 @@
+#define _XOPEN_SOURCE 500
 #include <assert.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
+#include <strings.h>
 
 #include "wuy_pool.h"
 #include "wuy_skiplist.h"
